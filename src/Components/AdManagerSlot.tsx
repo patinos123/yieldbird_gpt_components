@@ -42,7 +42,7 @@ export const AdManagerSlot: React.FC<Props> = ({
     return () => {
       AdManager.destroySlot(optDiv)
     }
-  }, [adManagerContext])
+  }, [])
 
   return <div id={optDiv} />
 }

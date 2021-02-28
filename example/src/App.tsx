@@ -28,6 +28,12 @@ const App = () => {
             }}
           /> }
         </div>
+
+        <AdManagerSlot
+          adUnitPath={config.unitPath2}
+          size={[[120, 600], [160, 600]]}
+          optDiv={config.optDiv2}
+        />
         <button onClick={buttonHandler}>Toggle {toggle ? 'OFF' : 'ON'} ads</button>
       </div>
     </AdManagerProvider>
